@@ -1,15 +1,20 @@
 {
-  "parser": "babel-eslint",
   "env": {
-    "es6":true,
-    "browser":true,
+    "es6": true,
+    "browser": true,
     "node": true
   },
+  "extends": [
+    "eslint:recommended",
+    "google"
+  ],
+  "parser": "babel-eslint",
   "rules": {
-    "semi":"off",
-    "linebreak-style":"off",
-    "comma-dangle":"off",
-    "require-jsdoc": "off"
-  },
-  "extends": ["eslint:recommended", "google"]
+    "semi": "off",
+    "linebreak-style": "off",
+    "comma-dangle": "off",
+    "require-jsdoc": "off",
+    "no-trailing-spaces": "off",
+    "operator-linebreak": "off"
+  }
 }

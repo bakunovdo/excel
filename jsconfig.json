@@ -2,12 +2,7 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es6",
-    "jsx": "preserve",
-    "baseUrl": "./",
-    // "paths": {
-    //   "@/*" : ["src/*"],
-    //   "@core/*" : ["src/core/*"]
-    // }
+    "jsx": "preserve"
   },
   "exclude": [
     "node_modules",
