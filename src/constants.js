@@ -6,3 +6,5 @@ export const defaultStyles = {
 }
 
 export const defaultTitle = 'Новая таблица'
+
+export const PAGE_EXCEL = '#excel'
